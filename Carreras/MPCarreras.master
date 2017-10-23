@@ -1,0 +1,19 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="MPCarreras.master.cs" Inherits="Sistema_de_etiquetas.Carreras.MPCarreras" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="contenidoMenuContextual" runat="server">
+
+    <ul id="menuContextual">
+        <li> <a href="AdministrarCarreras.aspx">Administrar Carreras</a> </li>
+        <li> <a href="AgregarCarrera.aspx">Agregar Carrera</a> </li>
+        <li> <a href="VerDatosCarrera.aspx">Ver Datos Carrera</a> </li>
+    </ul>
+
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="contenidoPrincipal" runat="server">
+
+    <asp:ContentPlaceHolder ID="contenidoPrincipal" runat="server">
+        
+    </asp:ContentPlaceHolder>
+
+</asp:Content>

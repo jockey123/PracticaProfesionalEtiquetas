@@ -1,0 +1,21 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="MPMaterias.master.cs" Inherits="Sistema_de_etiquetas.Materias.MPMaterias" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="contenidoMenuContextual" runat="server">
+
+    <ul id="menuContextual">
+        <li> <a href="AdministrarMaterias.aspx">Administrar Materias</a> </li>
+        <li> <a href="AgregarMateria.aspx">Agregar Materia</a> </li>
+        <li> <a href="VerDatosMateria.aspx">Ver Datos Materia</a> </li>
+
+    </ul>
+
+</asp:Content>
+
+<asp:Content ID="Content3" ContentPlaceHolderID="contenidoPrincipal" runat="server">
+
+    <asp:ContentPlaceHolder ID="contenidoPrincipal" runat="server">
+        
+    </asp:ContentPlaceHolder>
+
+</asp:Content>

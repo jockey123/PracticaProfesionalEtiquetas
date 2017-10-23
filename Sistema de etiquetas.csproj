@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F3098163-3FAB-4646-962B-683ED56AABDF}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sistema_de_etiquetas</RootNamespace>
+    <AssemblyName>Sistema de etiquetas</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\Tema1\estilos.css" />
+    <Content Include="Carreras\AdministrarCarreras.aspx" />
+    <Content Include="Carreras\AgregarCarrera.aspx" />
+    <Content Include="Carreras\VerDatosCarrera.aspx" />
+    <Content Include="Cursos\AdministrarCursos.aspx" />
+    <Content Include="Cursos\AgregarCurso.aspx" />
+    <Content Include="Cursos\VerDatosCurso.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Departamentos\AdministrarDepartamentos.aspx" />
+    <Content Include="Departamentos\AgregarDepartamento.aspx" />
+    <Content Include="Departamentos\VerDatosDepartamento.aspx" />
+    <Content Include="Docentes\AdministrarDocentes.aspx" />
+    <Content Include="Docentes\AgregarDocente.aspx" />
+    <Content Include="Docentes\VerDatosDocente.aspx" />
+    <Content Include="Etiquetas\BusquedaEtiqueta.aspx" />
+    <Content Include="Etiquetas\ImprimirEtiquetas.aspx" />
+    <Content Include="Imagenes\logotipo.png" />
+    <Content Include="Imagenes\publicidades.jpg" />
+    <Content Include="Imagenes\redesSociales.jpg" />
+    <Content Include="Materias\AdministrarMaterias.aspx" />
+    <Content Include="Materias\AgregarMateria.aspx" />
+    <Content Include="Materias\VerDatosMateria.aspx" />
+    <Content Include="Personas\AdministrarPersonas.aspx" />
+    <Content Include="Personas\AgregarPersona.aspx" />
+    <Content Include="Personas\VerDatosPersona.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Carreras\AdministrarCarreras.aspx.cs">
+      <DependentUpon>AdministrarCarreras.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Carreras\AdministrarCarreras.aspx.designer.cs">
+      <DependentUpon>AdministrarCarreras.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Carreras\AgregarCarrera.aspx.cs">
+      <DependentUpon>AgregarCarrera.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Carreras\AgregarCarrera.aspx.designer.cs">
+      <DependentUpon>AgregarCarrera.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Carreras\MPCarreras.master.cs">
+      <DependentUpon>MPCarreras.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Carreras\MPCarreras.master.designer.cs">
+      <DependentUpon>MPCarreras.master</DependentUpon>
+    </Compile>
+    <Compile Include="Carreras\VerDatosCarrera.aspx.cs">
+      <DependentUpon>VerDatosCarrera.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Carreras\VerDatosCarrera.aspx.designer.cs">
+      <DependentUpon>VerDatosCarrera.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cursos\AdministrarCursos.aspx.cs">
+      <DependentUpon>AdministrarCursos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cursos\AdministrarCursos.aspx.designer.cs">
+      <DependentUpon>AdministrarCursos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cursos\AgregarCurso.aspx.cs">
+      <DependentUpon>AgregarCurso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cursos\AgregarCurso.aspx.designer.cs">
+      <DependentUpon>AgregarCurso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cursos\MPCursos.master.cs">
+      <DependentUpon>MPCursos.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cursos\MPCursos.master.designer.cs">
+      <DependentUpon>MPCursos.master</DependentUpon>
+    </Compile>
+    <Compile Include="Cursos\VerDatosCurso.aspx.cs">
+      <DependentUpon>VerDatosCurso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cursos\VerDatosCurso.aspx.designer.cs">
+      <DependentUpon>VerDatosCurso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departamentos\AdministrarDepartamentos.aspx.cs">
+      <DependentUpon>AdministrarDepartamentos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departamentos\AdministrarDepartamentos.aspx.designer.cs">
+      <DependentUpon>AdministrarDepartamentos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departamentos\AgregarDepartamento.aspx.cs">
+      <DependentUpon>AgregarDepartamento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departamentos\AgregarDepartamento.aspx.designer.cs">
+      <DependentUpon>AgregarDepartamento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departamentos\MPDepartamentos.master.cs">
+      <DependentUpon>MPDepartamentos.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departamentos\MPDepartamentos.master.designer.cs">
+      <DependentUpon>MPDepartamentos.master</DependentUpon>
+    </Compile>
+    <Compile Include="Departamentos\VerDatosDepartamento.aspx.cs">
+      <DependentUpon>VerDatosDepartamento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departamentos\VerDatosDepartamento.aspx.designer.cs">
+      <DependentUpon>VerDatosDepartamento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Docentes\AdministrarDocentes.aspx.cs">
+      <DependentUpon>AdministrarDocentes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Docentes\AdministrarDocentes.aspx.designer.cs">
+      <DependentUpon>AdministrarDocentes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Docentes\AgregarDocente.aspx.cs">
+      <DependentUpon>AgregarDocente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Docentes\AgregarDocente.aspx.designer.cs">
+      <DependentUpon>AgregarDocente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Docentes\VerDatosDocente.aspx.cs">
+      <DependentUpon>VerDatosDocente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Docentes\VerDatosDocente.aspx.designer.cs">
+      <DependentUpon>VerDatosDocente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Etiquetas\BusquedaEtiqueta.aspx.cs">
+      <DependentUpon>BusquedaEtiqueta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Etiquetas\BusquedaEtiqueta.aspx.designer.cs">
+      <DependentUpon>BusquedaEtiqueta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Etiquetas\ImprimirEtiquetas.aspx.cs">
+      <DependentUpon>ImprimirEtiquetas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Etiquetas\ImprimirEtiquetas.aspx.designer.cs">
+      <DependentUpon>ImprimirEtiquetas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Etiquetas\MPEtiquetas.master.cs">
+      <DependentUpon>MPEtiquetas.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Etiquetas\MPEtiquetas.master.designer.cs">
+      <DependentUpon>MPEtiquetas.master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Docentes\MPDocentes.master.cs">
+      <DependentUpon>MPDocentes.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Docentes\MPDocentes.master.designer.cs">
+      <DependentUpon>MPDocentes.master</DependentUpon>
+    </Compile>
+    <Compile Include="Materias\AdministrarMaterias.aspx.cs">
+      <DependentUpon>AdministrarMaterias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Materias\AdministrarMaterias.aspx.designer.cs">
+      <DependentUpon>AdministrarMaterias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Materias\AgregarMateria.aspx.cs">
+      <DependentUpon>AgregarMateria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Materias\AgregarMateria.aspx.designer.cs">
+      <DependentUpon>AgregarMateria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Materias\MPMaterias.master.cs">
+      <DependentUpon>MPMaterias.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Materias\MPMaterias.master.designer.cs">
+      <DependentUpon>MPMaterias.master</DependentUpon>
+    </Compile>
+    <Compile Include="Materias\VerDatosMateria.aspx.cs">
+      <DependentUpon>VerDatosMateria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Materias\VerDatosMateria.aspx.designer.cs">
+      <DependentUpon>VerDatosMateria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Personas\AdministrarPersonas.aspx.cs">
+      <DependentUpon>AdministrarPersonas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Personas\AdministrarPersonas.aspx.designer.cs">
+      <DependentUpon>AdministrarPersonas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Personas\AgregarPersona.aspx.cs">
+      <DependentUpon>AgregarPersona.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Personas\AgregarPersona.aspx.designer.cs">
+      <DependentUpon>AgregarPersona.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Personas\MPPersonas.master.cs">
+      <DependentUpon>MPPersonas.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Personas\MPPersonas.master.designer.cs">
+      <DependentUpon>MPPersonas.master</DependentUpon>
+    </Compile>
+    <Compile Include="Personas\VerDatosPersona.aspx.cs">
+      <DependentUpon>VerDatosPersona.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Personas\VerDatosPersona.aspx.designer.cs">
+      <DependentUpon>VerDatosPersona.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPage.Master" />
+    <Content Include="Docentes\MPDocentes.master" />
+    <Content Include="Materias\MPMaterias.master" />
+    <Content Include="Carreras\MPCarreras.master" />
+    <Content Include="Etiquetas\MPEtiquetas.master" />
+    <Content Include="Cursos\MPCursos.master" />
+    <Content Include="Departamentos\MPDepartamentos.master" />
+    <Content Include="Personas\MPPersonas.master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>19435</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:19435/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

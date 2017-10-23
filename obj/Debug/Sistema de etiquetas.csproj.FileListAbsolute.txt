@@ -1,0 +1,18 @@
+C:\Users\Hrn\Favorites\Desktop\Sistema de etiquetas\Sistema de etiquetas\bin\Sistema de etiquetas.dll.config
+C:\Users\Hrn\Favorites\Desktop\Sistema de etiquetas\Sistema de etiquetas\bin\Sistema de etiquetas.dll
+C:\Users\Hrn\Favorites\Desktop\Sistema de etiquetas\Sistema de etiquetas\bin\Sistema de etiquetas.pdb
+C:\Users\Hrn\Favorites\Desktop\Sistema de etiquetas\Sistema de etiquetas\obj\Debug\Sistema de etiquetas.csprojResolveAssemblyReference.cache
+C:\Users\Hrn\Favorites\Desktop\Sistema de etiquetas\Sistema de etiquetas\obj\Debug\Sistema de etiquetas.dll
+C:\Users\Hrn\Favorites\Desktop\Sistema de etiquetas\Sistema de etiquetas\obj\Debug\Sistema de etiquetas.pdb
+C:\Users\Pc\Downloads\Nueva carpeta\Sistema de etiquetas\Sistema de etiquetas\bin\Sistema de etiquetas.dll.config
+C:\Users\Pc\Downloads\Nueva carpeta\Sistema de etiquetas\Sistema de etiquetas\bin\Sistema de etiquetas.dll
+C:\Users\Pc\Downloads\Nueva carpeta\Sistema de etiquetas\Sistema de etiquetas\bin\Sistema de etiquetas.pdb
+C:\Users\Pc\Downloads\Nueva carpeta\Sistema de etiquetas\Sistema de etiquetas\obj\Debug\Sistema de etiquetas.csprojResolveAssemblyReference.cache
+C:\Users\Pc\Downloads\Nueva carpeta\Sistema de etiquetas\Sistema de etiquetas\obj\Debug\Sistema de etiquetas.dll
+C:\Users\Pc\Downloads\Nueva carpeta\Sistema de etiquetas\Sistema de etiquetas\obj\Debug\Sistema de etiquetas.pdb
+C:\Users\Usuario\Desktop\Sistema de etiquetas\bin\Sistema de etiquetas.dll.config
+C:\Users\Usuario\Desktop\Sistema de etiquetas\bin\Sistema de etiquetas.dll
+C:\Users\Usuario\Desktop\Sistema de etiquetas\bin\Sistema de etiquetas.pdb
+C:\Users\Usuario\Desktop\Sistema de etiquetas\obj\Debug\Sistema de etiquetas.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Desktop\Sistema de etiquetas\obj\Debug\Sistema de etiquetas.dll
+C:\Users\Usuario\Desktop\Sistema de etiquetas\obj\Debug\Sistema de etiquetas.pdb

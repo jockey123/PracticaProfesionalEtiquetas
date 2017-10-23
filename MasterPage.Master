@@ -1,0 +1,75 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Sistema_de_etiquetas.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div id="cabecera">
+
+            <div id="contenidoCabecera">
+                <div id="barraHorizontal">
+                    <ul>
+                        <li><a href="/Default.aspx">Home</a></li>
+                        <li><a href="/Departamentos/AdministrarDepartamentos.aspx">Departamentos</a></li>
+                        <li><a href="/Carreras/AdministrarCarreras.aspx">Carreras</a></li>
+                        <li><a href="/Materias/AdministrarMaterias.aspx">Materias</a></li>
+                        <li><a href="/Cursos/AdministrarCursos.aspx">Cursos</a></li>
+                        <li><a href="/Docentes/AdministrarDocentes.aspx">Docentes</a></li>
+                        <li><a href="/Personas/AdministrarPersonas.aspx">Personas</a></li>
+                        <li><a href="/Etiquetas/ImprimirEtiquetas.aspx">Etiquetas</a></li>
+                    </ul>
+                </div>
+                <div id="logotipo">
+
+                    <img src="/Imagenes/logotipo.png" alt="logo UTN" />
+                </div>
+                <div id="titulo">
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="bajo">
+            <div id="columnIzq">
+                <asp:ContentPlaceHolder ID="contenidoMenuContextual" runat="server">
+             
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="columnCentro">
+
+                <asp:ContentPlaceHolder ID="contenidoPrincipal" runat="server">
+            
+                </asp:ContentPlaceHolder>
+
+            </div>
+            <div id="columnDer">
+                <div id="Calendario">
+                    <asp:Calendar ID="Calendar1" runat="server" alt="Calendario" Width="150px"></asp:Calendar>
+                </div>
+              
+                
+              
+
+            </div>
+
+            <div id="pie">
+
+                <span>Práctica Supervisada 2C/2017</span>
+
+            </div>
+        </div>
+        
+    </div>
+    </form>
+</body>
+</html>

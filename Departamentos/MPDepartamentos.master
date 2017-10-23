@@ -1,0 +1,17 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="MPDepartamentos.master.cs" Inherits="Sistema_de_etiquetas.Departamentos.MPDepartamentos" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="contenidoMenuContextual" runat="server">
+
+    <ul id="menuContextual">
+        <li> <a href="AdministrarDepartamentos.aspx">Administrar Departamentos</a> </li>
+        <li> <a href="AgregarDepartamento.aspx">Agregar Departamento</a> </li>
+        <li> <a href="VerDatosDepartamento.aspx">Ver Datos Departamento</a> </li>
+    </ul>
+
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="contenidoPrincipal" runat="server">
+    <asp:ContentPlaceHolder ID="contenidoPrincipal" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</asp:Content>
